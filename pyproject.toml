@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "claude3-7"
+version = "0.1.0"
+description = ""
+authors = ["mi953lg <mi953lg@ca-sa.local>"]
+readme = "README.md"
+packages = [{include = "claude3_7"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "1.37.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
