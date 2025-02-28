@@ -8,7 +8,7 @@ packages = [{include = "claude3_7"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-boto3 = "1.37.0"
+boto3 = "1.37.2"
 
 [build-system]
 requires = ["poetry-core"]
