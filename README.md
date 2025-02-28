@@ -41,7 +41,7 @@ Ensure you have the following installed and configured before running the script
 4. **Ensure AWS credentials are configured**:
    You must have AWS credentials set up with access to Amazon Bedrock.
    ```sh
-   aws configure --profile data_reply
+   aws configure --profile <your_profile_name>
    ```
 
 ## Usage
